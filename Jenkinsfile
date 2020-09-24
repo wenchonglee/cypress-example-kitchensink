@@ -83,7 +83,7 @@ pipeline {
         stage('tester A') {
           steps {
             echo "Running build ${env.BUILD_ID}"
-            sh "npm run e2e:record:parallel"
+            sh "npm run e2e"
           }
         }
 
@@ -91,7 +91,7 @@ pipeline {
         stage('tester B') {
           steps {
             echo "Running build ${env.BUILD_ID}"
-            sh "npm run e2e:record:parallel"
+            sh "npm run e2e"
           }
         }
       }
