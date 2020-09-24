@@ -31,6 +31,7 @@
     "test:ci": "run-p --race start:ci e2e",
     "test:ci:chrome": "run-p --race start:ci e2e:chrome",
     "test:ci:record": "run-p --race start:ci e2e:record",
+    "test:ci:reporter": "run-p --race start:ci e2e:reporter",
     "test:ci:record:windows": "run-p --race start:ci:windows e2e:record",
     "test:ci:record:windows:chrome": "run-p --race start:ci:windows e2e:record:chrome",
     "test:ci:record:windows:edge": "run-p --race start:ci:windows e2e:record:edge",
